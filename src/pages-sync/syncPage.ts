@@ -675,7 +675,7 @@ export class SyncPage {
           split = ' | ';
         }
 
-        if (hoverInfo) {
+        if (hoverInfo && api.settings.get('syncNotifications')) {
           /* if(episodeInfoBox){//TODO
                 episodeInfo(change['.add_anime[num_watched_episodes]'], actual['malurl'], message, function(){
                     undoAnime['checkIncrease'] = 0;
@@ -713,7 +713,7 @@ export class SyncPage {
             if (fl) fl.remove();
             this.syncHandling(false, true);
           });
-        } else {
+        } else if (api.settings.get('syncNotifications')) {
           utils.flashm(message);
         }
 

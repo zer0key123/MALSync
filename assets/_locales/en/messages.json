@@ -1397,6 +1397,10 @@
         "message": "Notifications",
         "description": "Notifications"
     },
+    "settings_SyncNotifications": {
+        "message": "Show sync popups",
+        "description": "Show the popup displayed after MAL-Sync updates chapter or episode progress"
+    },
     "settings_Notifications_Sticky": {
         "message": "Sticky Notifications",
         "description": "Requires interaction to dismiss; ignores system notification timeout"

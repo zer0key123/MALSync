@@ -88,6 +88,7 @@ export const settingsObj = {
     progressNotificationsAnime: true,
     progressNotificationsManga: true,
     notificationsSticky: true,
+    syncNotifications: true,
 
     bookMarksList: false,
     bookMarksListManga: false,
